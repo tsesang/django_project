@@ -1,0 +1,12 @@
+# express model views (pug ejs)
+#django model templates(jinja)  views functions
+#DRY - dont repeat yourself 
+#build in amdin panel 
+
+    #rapid development
+    #clean and elegant design 
+    #database abstaction - ORM (Object Relational Mapping)
+    #admin interface 
+    #versatality 
+
+django is way more flexed modules then flask 

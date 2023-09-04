@@ -1,0 +1,57 @@
+ python -m venv env
+
+python -m venv env
+env\Scripts\activate
+pip install django
+django-admin startproject mysite .    if you put dot at the end then manage.py wil be outside of the 
+
+
+ migration commnans : 
+    python manage.py makemigrations
+    python manage.py migrate 
+    python manage.py runserver 
+
+    python manage.py runserver 5656   -application running on port 5656
+
+    python manage.py startapp myapp 
+
+    /admin - to go to admin route 
+
+    python manage.py createsuperuser 
+ 
+
+browser  ->  url  -> view  - > models -> DB -> models -> views -> tempalte - > browser
+
+in setting.py 
+
+/ =====>   python manage.py startapp 
+/ =====>   in setting.py register your app in installed_apps append it to the list
+
+
+/ ====> BASE_DIR - parent dir of the project 
+/====> TIME_ZONE = 'Asia/Kolkata'
+
+
+static file --> html css img fonts 
+
+for html file you hvae to create a folder inside application folder 
+folder name - templates
+
+other static files will be inside static folder for now !!! 
+
+
+DEBUG = True   set to true so that debug the project and shwo the error in the code 
+----> debug = false and ALLOWED_HOSTS = []  set to ALLOWED_HOSTS = ["*"]
+
+
+create static folder in application folder and paste the asset the static file
+
+
+
+
+
+copy paste all the html files inside templates
+place asset inside static file inside application folder
+
+extending urlpatterns 
+
